@@ -8,6 +8,8 @@ import (
 	"github.com/thalesmacedo1/code-bank/domain"
 	"github.com/thalesmacedo1/code-bank/infrastructure/repository"
 	"github.com/thalesmacedo1/code-bank/usecase"
+
+	_ "github.com/lib/pq"
 )
 
 func main() {
